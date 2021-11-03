@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call(AlertTableSeeder::class);
         $this->call(PositionTableSeeder::class);
         $this->call(GPEPositionTableSeeder::class);
+        $this->call(GPESlotSeeder::class);
         $this->call(SettingTableSeeder::class);
         $this->call(EventDatesTableSeeder::class);
         $this->call(HelpTableSeeder::class);
